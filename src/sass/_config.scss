@@ -1,0 +1,32 @@
+
+$color-primary:#3193f0;
+$color-secondry:rgb(7, 139, 108);
+
+
+$text-first-color:rgb(25, 25, 25);
+$text-second-color:rgb(52, 52, 52);
+
+
+.bg-primary{
+    background-color: $color-primary;
+}
+
+.bg-secondry{
+background-color: $color-secondry;
+}
+
+.text-primary-colorful{
+    color: $color-primary;
+}
+
+.text-secondry-colorful{
+    color: $color-secondry;
+}
+
+.text-first-color{
+    color: $text-primary-color;
+}
+
+.text-second-color{
+    color: $text-secondry-color;
+}

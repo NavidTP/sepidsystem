@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'vazir';
+  src: url(./assets/fonts/Vazir.eot);
+  src: url(./assets/fonts/Vazir.eot?#iefix) format('embedded-opentype'),
+       url(./assets/fonts/Vazir.woff2) format('woff2'),
+       url(./assets/fonts/Vazir.woff) format('woff'),
+       url(./assets/fonts/Vazir.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family:'vazir','tahoma','Ubuntu'!important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
